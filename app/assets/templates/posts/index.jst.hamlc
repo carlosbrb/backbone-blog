@@ -1,0 +1,11 @@
+%table
+  %tbody
+    %tr
+      %th Title
+      %th Content
+      %th
+      %th
+      %th
+   
+%a{href: "#new"}
+  New Post
