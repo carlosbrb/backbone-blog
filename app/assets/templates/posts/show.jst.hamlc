@@ -1,11 +1,11 @@
 %p
   %b
     Title:
-  = title
+  = @post.get('title') if @post
 %p
   %b
     Content:
-  = content
+  = @post.get('content') if @post
 
 %a{href: '#/index'}
   Back

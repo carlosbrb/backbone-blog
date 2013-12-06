@@ -1,5 +1,5 @@
-%td= title
-%td= content
+%td= @post.get('title') if @post
+%td= @post.get('content') if @post
 
 %td
   %a{href:"#/#{id}"}
